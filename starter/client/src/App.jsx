@@ -9,6 +9,9 @@ import { NotFound } from './components/NotFound'
 import { Todos } from './components/Todos'
 
 export default function App() {
+  console.log('Fetching todos')
+  console.log(process.env)
+
   function generateMenu() {
     return (
       <Menu>
