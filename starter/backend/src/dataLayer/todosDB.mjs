@@ -1,6 +1,6 @@
 import { DynamoDB } from '@aws-sdk/client-dynamodb'
 import { DynamoDBDocument } from '@aws-sdk/lib-dynamodb'
-import { AWSXRay  } from 'aws-xray-sdk-core'
+import AWSXRay from 'aws-xray-sdk-core'
 
 export class TodosDB {
 
